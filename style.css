@@ -37,7 +37,7 @@ body {
 
 .header-logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 400;
     color: #F9FAF8;
 }
 
@@ -48,9 +48,23 @@ body {
     padding: 10px 80px;
 }
 
-.picture1 {
-    width: 400px;
-    height: 200px;
+.left-bottom-header {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.left-bottom-header h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+
+.picture1 img {
+    width: auto;
+    height: 300px;
     object-fit: cover;
+    flex: 1;
 }
 
