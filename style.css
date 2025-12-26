@@ -103,3 +103,36 @@ h1 {
     outline: none;
     box-shadow: none
 }
+
+.content {
+    padding: 48px 180px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.content-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.content-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+li img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
